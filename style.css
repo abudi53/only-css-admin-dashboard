@@ -205,6 +205,29 @@ header .profile-info {
     align-self: end;
     justify-self: end;
 }
+.announcements-container {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(auto, auto));
+    gap: 0.5rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px 0px #63856f;
+    margin-top: 16px;
+}
+
+.announcements-card {
+    padding: 5px;
+}
+.announcements-card h4 {
+    font-size: 0.9rem;
+}
+.announcements-card p{
+    font-size: 0.8rem;
+    color: #404957;
+    font-weight: 400;
+    min-height: 50%;
+}
 .trending {
     grid-column: 2 / 3;
 }
